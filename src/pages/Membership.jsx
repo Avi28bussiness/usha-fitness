@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Star } from 'lucide-react';
-import { right } from '@popperjs/core';
+
 
 export default function Membership() {
   const [plans, setPlans] = useState([]);
