@@ -1,0 +1,40 @@
+import React, { useEffect, useState } from 'react';
+
+export default function DietChart() {
+  const [dietPlan, setDietPlan] = useState([]);
+
+  useEffect(() => {
+    fetch('/dietPlan.json')
+      .then((res) => res.json())
+      .then((data) => setDietPlan(data))
+      .catch((err) => console.error('Failed to load diet plan:', err));
+  }, []);
+
+  return (
+    <div className="p-6 bg-gray-50 min-h-screen">
+      <h1 className="text-3xl font-bold text-center text-black mb-6">Diet Chart</h1>
+      <p className="text-center text-gray-700 mb-10">Your personalized meal plan</p>
+
+      <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {dietPlan.map((meal, index) => (
+          <div
+            key={index}
+            className="bg-white rounded-xl shadow-md p-4 border border-gray-200 hover:shadow-lg transition"
+            style={{margin: '10px'}}
+          >
+            <h3 className="text-xl font-semibold text-gray-800 mb-1">{meal.meal}</h3>
+            <p className="text-sm text-gray-500 mb-3">{meal.time}</p>
+            <div className="text-sm text-gray-700 space-y-1">
+              {meal.items.map((item, idx) => (
+                <div key={idx} className="flex items-center">
+                  <span className="mr-2 text-green-500">•</span>
+                  {item}
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}

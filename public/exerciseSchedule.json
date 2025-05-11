@@ -1,0 +1,72 @@
+{
+  "Monday": {
+    "title": "Chest & Triceps",
+    "exercises": [
+      { "name": "Bench Press", "image": "https://bizweb.dktcdn.net/100/011/344/files/barbell-bench-press-min.gif?v=1679371272602" },
+      { "name": "Incline Dumbbell Press", "image": "https://burnfit.io/wp-content/uploads/2023/11/BB_INC_PRESS.gif" },
+      { "name": "Tricep Dips", "image": "https://burnfit.io/wp-content/uploads/2023/11/DIPS.gif" },
+      { "name": "Cable Pushdowns", "image": "https://framerusercontent.com/images/YDtrSqHTJ0EjXJMFAR1Us3ydM.gif" },
+      { "name": "Chest Fly Machine", "image": "https://boxlifemagazine.com/wp-content/uploads/2023/06/pec-deck-butterfly-exercice-musculation-1.gif" },
+      { "name": "Diamond Pushups", "image": "https://www.aleanlife.com/wp-content/uploads/2020/10/diamond-push-ups-benefits.gif" }
+    ]
+  },
+  "Tuesday": {
+    "title": "Back & Biceps",
+    "exercises": [
+      { "name": "Deadlifts", "image": "https://fitnessprogramer.com/wp-content/uploads/2022/09/barbell-deadlift.gif" },
+      { "name": "Lat Pulldowns", "image": "https://sporium.net/wp-content/uploads/2020/01/pulldown-min.gif" },
+      { "name": "Pull-Ups", "image": "https://fitnessvolt.com/wp-content/uploads/2013/12/pull-up.gif" },
+      { "name": "Barbell Rows", "image": "https://fitliferegime.com/wp-content/uploads/2023/06/Bent-Over-Barbell-Rows.gif" },
+      { "name": "Dumbbell Curls", "image": "https://th.bing.com/th/id/R.ff4a05d30c7719edc6456e996bad640f?rik=Kizun5hzB0waZQ&riu=http%3a%2f%2fnewlife.com.cy%2fwp-content%2fuploads%2f2019%2f11%2f23211301-Dumbbell-Standing-Inner-Biceps-Curl-version-2_Upper-Arms_360.gif&ehk=AMynWtiI%2bdcDWtVzaiUNEHUosM53brC1OUuiGuWY3Fw%3d&risl=&pid=ImgRaw&r=0" },
+      { "name": "Hammer Curls", "image": "https://i.pinimg.com/originals/45/38/18/453818257067e0df3ee77eb9d184f015.gif" }
+    ]
+  },
+  "Wednesday": {
+    "title": "Legs & Shoulders",
+    "exercises": [
+      { "name": "Squats", "image": "https://www.inspireusafoundation.org/wp-content/uploads/2021/06/bodyweight-squat.gif" },
+      { "name": "Leg Press", "image": "https://media.tenor.com/yBaS_oBgidsAAAAM/gym.gif" },
+      { "name": "Calf Raises", "image": "https://www.inspireusafoundation.org/wp-content/uploads/2023/03/dumbbell-calf-raise.gif" },
+      { "name": "Shoulder Press", "image": "https://menspower.nl/wp-content/uploads/2018/02/dumbbell-shoulder-press.gif" },
+      { "name": "Lateral Raises", "image": "https://burnfit.io/wp-content/uploads/2023/11/DB_LAT_RAISE.gif" },
+      { "name": "Front Raises", "image": "https://homeworkouts.org/wp-content/uploads/anim-dumbbell-front-raises.gif" }
+    ]
+  },
+  "Thursday": {
+    "title": "Chest & Biceps",
+    "exercises": [
+      { "name": "Pushups", "image": "https://homeworkouts.org/wp-content/uploads/anim-push-ups.gif" },
+      { "name": "Incline Bench Press", "image": "https://burnfit.io/wp-content/uploads/2023/11/BB_INC_PRESS.gif" },
+      { "name": "Chest Dips", "image": "https://fitcron.com/wp-content/uploads/2021/03/02511301-Chest-Dip_Chest_720.gif" },
+      { "name": "Preacher Curls", "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/ez-bar-preacher-curl.gif" },
+      { "name": "EZ Bar Curls", "image": "https://fitliferegime.com/wp-content/uploads/2023/02/Reverse-EZ-Bar-Curl.gif" },
+      { "name": "Concentration Curls", "image": "https://realidadfitness.com/wp-content/uploads/2023/07/CURL-DE-CONCENTRACION-GIF.gif" }
+    ]
+  },
+  "Friday": {
+    "title": "Back & Triceps",
+    "exercises": [
+      { "name": "Pullups", "image": "https://fitnessvolt.com/wp-content/uploads/2013/12/pull-up.gif" },
+      { "name": "Seated Row", "image": "https://th.bing.com/th/id/OIP.jq9Va1hJLSXZ4BKCQ4x8TgHaHa?rs=1&pid=ImgDetMain" },
+      { "name": "Skull Crushers", "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/08/flat-bench-skull-crusher.gif" },
+      { "name": "Close-Grip Bench Press", "image": "https://liftmanual.com/wp-content/uploads/2023/04/ez-bar-close-grip-bench-press.gif" },
+      { "name": "Triceps Kickbacks", "image": "https://media.tenor.com/PZjMZqyfPgcAAAAM/db-tricep-kickback.gif" },
+      { "name": "Overhead Triceps Extension", "image": "https://th.bing.com/th/id/R.dcd680efde0ad3a4aace412abd7c4d71?rik=Vz8eYdk5XTMK%2bg&riu=http%3a%2f%2fnewlife.com.cy%2fwp-content%2fuploads%2f2019%2f12%2f21881301-Dumbbell-Seated-Triceps-Extension_Upper-Arms_360.gif&ehk=gOxdIgBgzG8hhetR0EKuR%2fipN%2bvISh8s9AkTljLK3As%3d&risl=&pid=ImgRaw&r=0" }
+    ]
+  },
+  "Saturday": {
+    "title": "Full Body Circuit",
+    "exercises": [
+      { "name": "Burpees", "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/burpee-movement.gif" },
+      { "name": "Jump Squats", "image": "https://homeworkouts.org/wp-content/uploads/anim-jump-squats.gif" },
+      { "name": "Pushups", "image": "https://homeworkouts.org/wp-content/uploads/anim-push-ups.gif" },
+      { "name": "Mountain Climbers", "image": "https://www.docteur-fitness.com/wp-content/uploads/2000/06/mountain-climber-exercice-musculation.gif" },
+      { "name": "Jump Rope", "image": "https://cdn.shopify.com/s/files/1/0100/2677/8681/files/wrestling_workouts_-_jump_rope_480x480.gif?v=1687232711" },
+      { "name": "Plank", "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/plank-movement.gif" }
+    ]
+  },
+  "Sunday": {
+    "title": "Rest Day",
+    "exercises": []
+  }
+}

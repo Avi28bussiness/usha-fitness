@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Gym Training",
+    "desc": "Join us for training sessions with expert trainers.",
+    "img": "https://4.bp.blogspot.com/-FbIyqCpB2IY/VznZ-nhnpSI/AAAAAAAACDE/Prp-gnJQg04DgIZVwTt7dMiuPTJ61y4aACLcB/s1600/weight-training-with-cardio.jpg",
+    "link": "/exercise"
+  },
+  {
+    "id": 2,
+    "title": "Diet Plans",
+    "desc": "Tailored diet plans to boost your progress.",
+    "img": "https://birlahealthcare.com/wp-content/uploads/2022/09/How-can-exercise-and-healthy-eating-change-your-life.jpg",
+    "link": "/diet"
+  },
+  {
+    "id": 3,
+    "title": "Membership",
+    "desc": "Flexible plans to match your goals.",
+    "img": "https://images01.nicepagecdn.com/page/90/55/website-template-preview-90551.jpg",
+    "link": "/membership"
+  }
+]
