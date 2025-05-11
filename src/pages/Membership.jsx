@@ -47,15 +47,6 @@ export default function Membership() {
 <h3 className="text-sm font-semibold text-danger">
   {plan.duration}
 </h3>
-
-                <div style={{marginLeft:'30%'}}>
-                 <img
-    src="https://th.bing.com/th/id/OIP.u3gQBc0KTwTZsnbsuig0kgAAAA?rs=1&pid=ImgDetMain"
-    alt="Membership"
-    className="h-full object-contain"
-    
-  />
-  </div>
               </div>
 
               {/* Card Body */}
