@@ -6,10 +6,11 @@ import { FaDumbbell } from 'react-icons/fa'; // Import fitness icon
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-black">
-      <a className="navbar-brand text-white d-flex align-items-center" href="#">
+      {/* Use Link here instead of <a> */}
+      <Link className="navbar-brand text-white d-flex align-items-center" to="/">
         <FaDumbbell size={30} className="mr-2" style={{margin:'5px'}}/> 
          <strong>Usha Fitness</strong>
-      </a>
+      </Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
