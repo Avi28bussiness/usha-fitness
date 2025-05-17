@@ -1,5 +1,6 @@
 // src/components/Footer.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -8,11 +9,11 @@ export default function Footer() {
       
       {/* Links to About, Contact, Privacy */}
       <div className="mb-3">
-        <a href="/" className="text-white mx-3">About</a>
-        <a href="/contact" className="text-white mx-3">Contact Us</a>
-        <a href="/" className="text-white mx-3">Privacy</a>
+        <Link className="text-white mx-3" to="/about">About</Link>
+        <Link className="text-white mx-3" to="/contact">Contact Us</Link>
+        <Link className="text-white mx-3" to="/privacy">Privacy</Link>
       </div>
-      
+
       {/* Social Media Icons */}
       <div>
         <a href="https://facebook.com" className="text-white mx-3" target="_blank" rel="noopener noreferrer">

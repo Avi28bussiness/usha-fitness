@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 export default function ExercisePlan() {
   const [todayPlan, setTodayPlan] = useState(null);
-  // const today = new Date().toLocaleDateString('en-US', { weekday: 'long' });
-   const today='Monday'
+  const today = new Date().toLocaleDateString('en-US', { weekday: 'long' });
   useEffect(() => {
     fetch('/exerciseSchedule.json')
       .then((response) => response.json())

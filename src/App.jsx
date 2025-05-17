@@ -24,9 +24,9 @@ export default function App() {
             <Route path="/contact" element={<ContactUs />} />  {/* New route for ContactUs */}
           </Routes>
         </div>
+         <Footer />
       </BrowserRouter>
 
-      <Footer />
     </div>
   );
 }

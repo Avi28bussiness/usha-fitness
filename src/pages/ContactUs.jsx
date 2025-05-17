@@ -33,9 +33,9 @@ export default function ContactUs() {
           <div className="mb-4">
             <h4>Contact Information</h4>
             <ul className="list-unstyled">
-              <li><strong>Phone:</strong> +1 (123) 456-7890</li>
-              <li><strong>Email:</strong> <a href="mailto:info@gym.com">info@gym.com</a></li>
-              <li><strong>Address:</strong> 123 Fitness St, Workout City, WC 56789</li>
+              <li><strong>Phone:</strong> 9140xxxxxxxxx</li>
+              <li><strong>Email:</strong> <a href="ushaFitess@gmail.com">ushaFitess@gmail.com</a></li>
+              <li><strong>Address:</strong> Fazbag Umarpur Jaunpur</li>
             </ul>
           </div>
 
